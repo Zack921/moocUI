@@ -1,6 +1,6 @@
 <template>
-  <div class="m-card">
-    <div class="m-card-img">
+  <div class="m-card" :style="width ? {width: width + 'px'} : {}">
+    <div class="m-card-img" :style="imgHeight ? {height: imgHeight + 'px'} : {}">
       <img :src="imgSrc" alt="img">
     </div>
     <div v-if="summary" class="m-card-summary">
