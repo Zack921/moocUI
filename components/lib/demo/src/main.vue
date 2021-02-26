@@ -1,5 +1,5 @@
 <template>
-  <h1 class="z-demo">Demo</h1>
+  <h1 class="m-demo">Demo</h1>
 </template>
 
 <script>
