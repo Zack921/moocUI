@@ -1,6 +1,6 @@
 {
-  "name": "mooc-ui11111",
-  "version": "0.1.0",
+  "name": "mooc-ui",
+  "version": "0.4.0",
   "description": "基于vue的管理端组件库",
   "main": "dist/index.umd.js",
   "keywords": [
@@ -19,11 +19,14 @@
     "lint": "vue-cli-service lint",
     "build:css": "npx gulp sass",
     "build:js": "webpack --config ./webpack.component.js",
-    "build": "npm run build:js && npm run build:css"
+    "build": "npm run build:js && npm run build:css",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "mooc-ui": "^0.1.0",
+    "mooc-ui": "^0.3.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -42,6 +45,7 @@
     "sass-loader": "^5.0.0",
     "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.8.2",
     "webpack-cli": "^4.5.0"
   },
   "eslintConfig": {
