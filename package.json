@@ -1,6 +1,6 @@
 {
   "name": "mooc-ui",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "基于vue的管理端组件库",
   "main": "dist/index.umd.js",
   "keywords": [
